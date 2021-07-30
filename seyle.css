@@ -348,6 +348,9 @@
           background-color: white;
           height: 438px;
           margin-top: 15%;
+          border: 1px solid #795548;
+          box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 12px 30px 0 rgb(0 0 0 / 19%);
+    
     
       }
       footer .imag img{
