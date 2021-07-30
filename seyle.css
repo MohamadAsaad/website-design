@@ -6,19 +6,19 @@
 
 @font-face {
     font-family: "29ltbukrabold";
-    src: url("fonts/29ltbukrabold.otf");
+    src: url("29ltbukrabold.otf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "29ltbukralight";
-    src: url("fonts/29ltbukralight.otf");
+    src: url("29ltbukralight.otf");
     font-weight: light;
 }
 
 @font-face {
     font-family: "29ltbukrabolditalic";
-    src: url("fonts/29ltbukrabolditalic.otf");
+    src: url("29ltbukrabolditalic.otf");
     font-weight: bolditalic;
 }
 
