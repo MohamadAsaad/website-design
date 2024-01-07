@@ -64,7 +64,7 @@ body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
-	color:#888;
+	color:#ffffff;
 }
 
 
@@ -895,9 +895,7 @@ body{
 	background-size:cover;
 	background-repeat:no-repeat;
 }
-.fun-facts .single-fun {
-	
-}
+
 .fun-facts .single-fun i {
 	position: absolute;
 	left: 0;
@@ -943,6 +941,24 @@ body{
 	color:#fff;
 	font-size:15px;
 }
+
+  /* my counter style */
+
+
+  .counter-section i { display:block; margin:0 0 10px}
+  .counter-section span.counter { font-size:40px; color:#000; line-height:60px; display:block; font-family: "Oswald",sans-serif; letter-spacing: 2px}
+  .counter-title{ font-size:12px; letter-spacing:2px; text-transform: uppercase}
+  .counter-icon {top:25px; position:relative}
+  .counter-style2 .counter-title {letter-spacing: 0.55px; float: left;}
+  .counter-style2 span.counter {letter-spacing: 0.55px; float: left; margin-right: 10px;}
+  .counter-style2 i {float: right; line-height: 26px; margin: 0 10px 0 0}
+  .counter-subheadline span {float: right;}  
+  
+  .medium-icon {
+	  font-size: 40px !important;
+	  margin-bottom: 15px !important;
+  } 
+
 /*===================
 	End Fun Facts
 =====================*/
@@ -997,7 +1013,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('imgs/860x394.jpg');
+	background-image:url('imgs/cnc-nedir.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -4220,3 +4236,16 @@ body{
     max-height: 100%;
   }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
