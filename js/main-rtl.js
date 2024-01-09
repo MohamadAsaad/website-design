@@ -157,10 +157,27 @@ Version:	1.1
 		/*=====================================
 			Counter Up JS
 		======================================*/
-		$('.counter').counterUp({
-			delay:20,
-			time:2000
+		// my counter settings
+		$(document).ready(function() {
+
+			$('.counter').each(function () {
+		$(this).prop('Counter',0).animate({
+			Counter: $(this).text()
+		}, {
+			duration: 4000,
+			easing: 'swing',
+			step: function (now) {
+				$(this).text(Math.ceil(now));
+			}
 		});
+	}); 
+	 
+	});  
+// ---------------------original counter sttings--------------
+		// $('.counter').counterUp({
+		// 	delay:20,
+		// 	time:2000
+		// });
 		
 		/*===============================
 			Clients Slider JS
